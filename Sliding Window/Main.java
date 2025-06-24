@@ -49,11 +49,11 @@ public class Main {
         int n = r.nextInt();
         int k = r.nextInt();
 
-
+          int j=0;
         long[] arr = new long[(int) n];
         HashMap<Long,Integer>hp=new HashMap<>();
 
-       int j=0;
+      
 
         for (int i = 0; i < n; i++) {
             arr[i]=r.nextLong();
